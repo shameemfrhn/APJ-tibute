@@ -1,0 +1,103 @@
+body {
+    padding:0;
+    background:url(images/download.jpg);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.navi {
+    width: auto;
+    height: 200px;
+    background:bisque;
+    ;
+    color: bisque;
+    display: flex;
+
+}
+
+.navi h1 {
+
+    margin-top: 40px;
+    color: #000;
+    font-size: 400%;
+    
+
+}
+.navi img{
+    width: 110px;
+    height: auto;
+    border:0, 50%, 50%, 0;
+
+}
+.dp{
+    margin-left: 20px;
+}
+
+.name {
+    margin-left: 40%;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    
+   
+
+}
+
+.txt {
+    color: bisque;
+    margin-top: 200px;
+
+}
+
+.txt h1{
+    font-size:400%;
+    margin-right:0px;
+}
+.txt h2{
+    font-size:200%;
+}
+.txt p{
+    font-size: 150%;
+}
+.container img{
+    margin-left: 20px;
+    
+
+}
+.img2{
+    
+    transition: transform 1s ease;
+}
+.img2:hover{
+    cursor: pointer;
+    transform:scale(1.06);
+}
+.gallery{
+    display: flex;
+    margin-top: 20px;
+    border-color: bisque;
+    border-top: 20px;
+    text-align: center;
+    padding-left: 20rem;
+    /* justify-content: space-between; */
+}
+.info{
+    text-align: center;
+    color: bisque;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 75px;
+    
+
+}
+.info p{
+    font-size: 150%;
+    
+}
